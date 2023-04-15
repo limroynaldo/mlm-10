@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="org.rdo.process.RDOCommissionRun"
+         name="org.rdo.process.RDOCommissionRun"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.rdo.process.RDOCommissionRun">
+      </process>
+   </extension>
+   <extension
+         id="org.rdo.process.RDOCompleteSO"
+         name="org.rdo.process.RDOCompleteSO"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.rdo.process.RDOCompleteSO">
+      </process>
+   </extension>
+   <extension
+         id="org.rdo.process.RDOMemberTree"
+         name="org.rdo.process.RDOMemberTree"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.rdo.process.RDOMemberTree">
+      </process>
+   </extension>
+   <extension
+         id="org.rdo.process.RDOGenerateRefNo"
+         name="org.rdo.process.RDOGenerateRefNo"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.rdo.process.RDOGenerateRefNo">
+      </process>
+   </extension>
+   <extension
+         id="org.rdo.process.RDOGeneratePassword"
+         name="org.rdo.process.RDOGeneratePassword"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.rdo.process.RDOGeneratePassword">
+      </process>
+   </extension>
+   <extension
+         id="org.rdo.process.ImportOrder"
+         name="org.rdo.process.ImportOrder"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.rdo.process.ImportOrder">
+      </process>
+   </extension>
+
+</plugin>
